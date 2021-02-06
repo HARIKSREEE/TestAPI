@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers/
+
+###
+
+GET http://localhost:3000/subscribers/601ebaa42d53w04ab45a21dc
+
+###
+
+POST http://localhost:3000/subscribers/
+Content-Type: application/json
+
+{
+    "name": "Harikrishnan S R",
+    "subscribedToChannel": "HKSR"
+}
+
+###
+
+PATCH  http://localhost:3000/subscribers/601ec04dc65a3045b024c778
+Content-Type: application/json
+
+{
+    "name": "Harikrishnan S R",
+    "subscribedToChannel": "TECH HKSR"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/601ebaa42d53704ab45a21dc
